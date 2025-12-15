@@ -1,0 +1,175 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    background-color: rgb(0, 23, 0);
+}
+
+#banner {
+    width: 100%;
+    height: 80px;
+    background-image: url(/cards/RhkI6Xrs.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 54, 20);
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.hidden {
+    display: none;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#totaal {
+    border: 2px double rgb(130, 206, 134);
+    margin-left: 46%;
+    margin-right: 46%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color:  rgb(130, 206, 134);
+}
+
+#startspel:not(.hidden) {
+    align-items: center;
+    border: 2px solid rgb(54, 132, 54);
+    background-color: rgb(130, 206, 134);
+    width: 300px;
+    height: 40px;
+    margin-left: 5%;
+    color: rgb(0, 5, 3);
+    font-size: large;
+}
+
+#bet:not(.hidden) {
+    position: static;
+    display: flex;
+    width: 150px;
+    height: 25px;
+    margin-left: 46%;
+    margin-top: 10px;
+    background-color: rgb(130, 206, 134);
+}
+
+#hit:not(.hidden) {
+    width: 150px;
+    height: 25px;
+    border: 1px ridge rgb(12, 144, 12);
+    background-color: rgba(20, 233, 20, 0.206);
+    color: rgb(22, 28, 12);
+}
+
+#pass:not(.hidden) {
+    border: 1px ridge;
+    margin-left: 1em;
+    width: 150px;
+    height: 25px;
+    color: rgb(123, 44, 44);
+    background-color: rgba(110, 3, 3, 0.206);
+}
+
+#double:not(.hidden), #insurancebutton:not(.hidden) {
+    border: 1px ridge;
+    margin-left: 1em;
+    color: rgb(183, 183, 3);
+    width: 150px;
+    height: 25px;    
+    background-color: rgb(37, 27, 1);
+}
+
+#dealerhand {
+    margin:  1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    padding-bottom: 3px;
+    border-bottom: 2px solid lightgreen;
+    border-top: 2px solid lightgreen;
+    padding-top: 3px;
+}
+
+
+#playerhand {
+    margin: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 2px solid darkgreen;
+    border-bottom: 2px solid darkgreen;
+}
+
+#scoreD{
+    position:relative;
+    left: 12%;
+    padding: 14px;
+    border: 2px ridge lightgreen;
+    font-size: xx-large;
+    align-items: center;
+}
+
+#scoreP{
+    position:relative;
+    left: 12%;
+    padding-right: 14px;
+    padding-left: 14px;
+    border: 2px ridge darkgreen;
+    font-size: xx-large;
+    align-items: center;
+}
+
+#dealer{
+    position:relative;
+    padding: 2px;
+    border: 2px ridge lightgreen;
+    right: 12%;
+    font-size: x-large;
+    align-items: center;
+}
+
+#player{
+    position:relative;
+    padding: 5px;
+    border: 2px ridge darkgreen;
+    right: 12%;
+    font-size: x-large;
+    align-items: center;
+}
+div {
+    display: flex;
+    gap: 8px;
+    color: rgb(130, 206, 134);
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: goldenrod;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: goldenrod;
+    &.lost {
+        color: red;
+    }
+}
+button {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    left: 36%;
+}

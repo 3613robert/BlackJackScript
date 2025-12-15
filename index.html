@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="background">
+    <div id="banner">BlackJack</div>
+    <div id="dealerhand">
+        <div id="dealer">Dealer</div>
+        <div id="kaart1D"></div>
+        <div id="kaart2D"></div>
+        <div id="kaart3D"></div>
+        <div id="kaart4D"></div>
+        <div id="kaart5D"></div>
+        <div id="kaart6D"></div>
+        <div id="kaart7D"></div>
+        <div id="kaart8D"></div>
+        <div id="scoreD"></div>   
+    </div>
+    <div id="playerhand">
+        <div id="player">Player</div>
+        <div id="kaart1P"></div>
+        <div id="kaart2P"></div>
+        <div id="kaart3P"></div>
+        <div id="kaart4P"></div>
+        <div id="kaart5P"></div>
+        <div id="kaart6P"></div>
+        <div id="kaart7P"></div>
+        <div id="kaart8P"></div>
+        <div id="scoreP"></div>
+    </div>
+    <div class="total">Totaal:</div>
+    <div class="total" id="totaal">50</div>
+    <button id="startspel">Start spel</button>
+    <p>Inzet:</p>
+    <select id="bet">
+        <option>1 euro</option>
+        <option>2 euro</option>
+        <option>5 euro</option>
+        <option>10 euro</option>
+    </select>
+    <button id="hit" class="hidden">Hit</button>
+    <button id="pass" class="hidden">Pass</button>
+    <button id="double" class="hidden">Double</button>
+    <button id="insurancebutton" class="hidden">Insurance</button>
+    <h1 id="result"></h1>
+    <h2 id="betresult" class="hidden"></h2>
+    <script src="script.js"> </script>
+</body>
+</html>
+
